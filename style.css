@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Teko&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+    color: #f6f6f6;
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12% 22%;
+}
+hr{
+    color: #f6f6f6;
+    background-color: #f6f6f6;
+}
+.container__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 18.1px;
+}
+.container__content__titles{
+    font-size: 36px;
+    font-family: 'Black Ops One', cursive;
+}
+.container__content__paragraph{
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+}
+.textogrifado{
+    color: #22d4fd;
+}
+.habilities{
+    color: #14FEA8;
+    font-size: 30px;
+}
+.container__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.container__buttons__link{
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    text-decoration: none;
+    text-decoration: bold;
+    color: white;
+}
+.container__buttons__link:hover{
+    background-color: #0B92B0;
+    color: rgb(167, 167, 167);
+}
+
+
+.photo{
+    border-radius: 30px;
+}
