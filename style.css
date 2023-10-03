@@ -5,16 +5,15 @@
     padding: 0px;
 }
 body{
-    height: 100vh;
     box-sizing: border-box;
     color: #f6f6f6;
     background-color: black;
 }
 .container{
+    padding: 9% 22%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 12% 22%;
 }
 hr{
     color: #f6f6f6;
@@ -24,7 +23,7 @@ hr{
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 18.1px;
+    gap: 5%;
 }
 .container__content__titles{
     font-size: 36px;
@@ -48,25 +47,52 @@ hr{
     gap: 12px;
     flex-direction: column;
 }
-.container__buttons__link{
+.container__buttons__title{
+    font-size: 24px;
+    font-family: 'Black Ops One', cursive;
+}
+.container__buttons__links{
+    display: flex;
     font-family: 'Teko', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     background-color: black;
-    border: #22d4fd solid 1px;
+    border: #22d4fd solid 1.5px;
     width: 450px;
-    text-align: center;
-    padding: 21.5px 0;
-    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 0;
+    border-radius: 15px;
     text-decoration: none;
     text-decoration: bold;
     color: white;
 }
-.container__buttons__link:hover{
-    background-color: #0B92B0;
-    color: rgb(167, 167, 167);
+.container__buttons__links:hover{
+    background-color: #1e2729;
+    color: rgb(173, 173, 173);
+    padding: 3%;
 }
-
-
+.container__buttons__links__logos{
+    width: 40px;
+    height: 40px;
+}
 .photo{
     border-radius: 30px;
+}
+
+.rodape{
+    display: flex;
+    text-align: center;
+    background-color: #22d4fd;
+    color: #1e2729;
+    justify-content: center;
+    gap: 5px;
+}
+.rodape__text{
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    padding: 8px 0;
+}
+.rodape__logo{
+    justify-content: flex-end;
 }
