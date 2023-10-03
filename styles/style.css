@@ -9,8 +9,23 @@ body{
     color: #f6f6f6;
     background-color: black;
 }
+.cabecalho{
+    padding: 3% 20% 0 20%;
+}
+.cabecalho__navegador{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__navegador__link{
+    color: #22d4fd;
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
 .container{
-    padding: 9% 22%;
+    padding: 7% 20% 8% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +38,7 @@ hr{
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 9%;
 }
 .container__content__titles{
     font-size: 36px;
@@ -78,6 +93,7 @@ hr{
 .photo{
     border-radius: 30px;
 }
+
 
 .rodape{
     display: flex;
