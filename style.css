@@ -70,7 +70,6 @@ hr{
 .container__buttons__links:hover{
     background-color: #1e2729;
     color: rgb(173, 173, 173);
-    padding: 3%;
 }
 .container__buttons__links__logos{
     width: 40px;
