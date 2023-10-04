@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Teko&display=swap');
 
-*{
+*{       /* Reset.css */
     margin: 0px;
     padding: 0px;
 }
+
+:root{
+    --color-primaria: #000000;
+    --color-secundaria: #f6f6f6;
+    --color-terciária: #22d4fd;
+    --color-habilidades: #14FEA8;
+    --color-hover: #1e2729;
+    --color-hovertext: rgb(173, 173, 173);
+
+    --font-principal: 'Teko', sans-serif;
+    --font-secundaria: 'Black Ops One', cursive;
+}
+
 body{
     box-sizing: border-box;
-    color: #f6f6f6;
-    background-color: black;
+    color: var(--color-secundaria);
+    background-color: var(--color-primaria);
 }
 .cabecalho{
     padding: 3% 20% 0 20%;
@@ -17,8 +30,8 @@ body{
     gap: 80px;
 }
 .cabecalho__navegador__link{
-    color: #22d4fd;
-    font-family: 'Teko', sans-serif;
+    color: var(--color-terciária);
+    font-family: var(--font-principal);
     font-size: 28px;
     padding: 10px 15px;
     text-decoration: none;
@@ -31,8 +44,8 @@ body{
     justify-content: space-between;
 }
 hr{
-    color: #f6f6f6;
-    background-color: #f6f6f6;
+    color: var(--color-secundaria);
+    background-color: var(--color-secundaria);
 }
 .container__content{
     width: 615px;
@@ -42,17 +55,17 @@ hr{
 }
 .container__content__titles{
     font-size: 36px;
-    font-family: 'Black Ops One', cursive;
+    font-family: var(--font-secundaria);
 }
 .container__content__paragraph{
-    font-family: 'Teko', sans-serif;
+    font-family: var(--font-principal);
     font-size: 28px;
 }
 .textogrifado{
-    color: #22d4fd;
+    color: var(--color-terciária);
 }
 .habilities{
-    color: #14FEA8;
+    color: var(--color-habilidades);
     font-size: 30px;
 }
 .container__buttons{
@@ -64,14 +77,14 @@ hr{
 }
 .container__buttons__title{
     font-size: 24px;
-    font-family: 'Black Ops One', cursive;
+    font-family: var(--font-secundaria);
 }
 .container__buttons__links{
     display: flex;
-    font-family: 'Teko', sans-serif;
+    font-family: var(--font-principal);
     font-size: 30px;
-    background-color: black;
-    border: #22d4fd solid 1.5px;
+    background-color: var(--color-primaria);
+    border: var(--color-terciária) solid 1.5px;
     width: 450px;
     align-items: center;
     justify-content: center;
@@ -80,11 +93,11 @@ hr{
     border-radius: 15px;
     text-decoration: none;
     text-decoration: bold;
-    color: white;
+    color: var(--color-secundaria);
 }
 .container__buttons__links:hover{
-    background-color: #1e2729;
-    color: rgb(173, 173, 173);
+    background-color: var(--color-hover);
+    color: var(--color-hovertext);
 }
 .container__buttons__links__logos{
     width: 40px;
@@ -98,13 +111,13 @@ hr{
 .rodape{
     display: flex;
     text-align: center;
-    background-color: #22d4fd;
-    color: #1e2729;
+    background-color: var(--color-terciária);
+    color: var(--color-primaria);
     justify-content: center;
     gap: 5px;
 }
 .rodape__text{
-    font-family: 'Teko', sans-serif;
+    font-family: var(--font-principal);
     font-size: 24px;
     padding: 8px 0;
 }
