@@ -134,7 +134,7 @@ hr{
     }
     .cabecalho__navegador{
         justify-content: center;
-        gap: 13%;
+        gap: 11%;
     }
     .cabecalho__navegador__link{
         padding: 10px 0;
@@ -142,11 +142,11 @@ hr{
     .container{
         flex-direction: column-reverse;
         gap: 20px;
-        padding: 7% 2% 8% 2%;
+        padding: 7% 7% 8% 7%;
     }
     .container__content{
         justify-content: center;
-        width: 70%;
+        width: auto;
         gap: 10px;
     }
     .container__content__titles{
@@ -164,5 +164,11 @@ hr{
     .container__photo{
         justify-content: center;
         width: 70%;
+    }
+}
+
+@media (max-width: 336px){
+    .cabecalho__navegador__link{
+        font-size: 1.5rem;
     }
 }
