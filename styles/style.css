@@ -159,6 +159,7 @@ hr{
     }
     .container__buttons__title{
         font-size: 1.25rem;
+        text-align: center;
     }
     .container__photo{
         justify-content: center;
